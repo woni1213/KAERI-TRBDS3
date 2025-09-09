@@ -4,7 +4,7 @@
 	// REG를 읽는게 output (PS -> PL)
 	// input 주석처리
 
-	module S00_AXI #
+	module S00_AXI4 #
 	(
 		// Parameter Override at Top Module
 		parameter integer C_S_AXI_DATA_WIDTH	= 32,

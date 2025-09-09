@@ -45,12 +45,12 @@ System Clock : 200 MHz, 5ns
 		input wire  s00_axi_rready
 	);
 
-    S00_AXI # 
+    S00_AXI4 # 
     (       
 		.C_S_AXI_DATA_WIDTH(C_S00_AXI_DATA_WIDTH),
 		.C_S_AXI_ADDR_WIDTH(C_S00_AXI_ADDR_WIDTH)
 	) 
-    u_S00_AXI 
+    u_S00_AXI4
     (
         .o_do_trg(o_do_trg),
         .o_do_ch1(o_do_ch1),
